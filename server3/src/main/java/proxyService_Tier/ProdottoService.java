@@ -2,11 +2,11 @@ package proxyService_Tier;
 
 import java.util.List;
 
-import org.springframework.stereotype.Service;
+
 
 import model_tier.Prodotto;
 
-@Service
+
 public interface ProdottoService {
 
 	List<Prodotto> addProdotto(Prodotto p);
